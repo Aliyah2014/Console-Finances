@@ -86,3 +86,27 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+//get all the months in to array
+
+// find the sum for profits
+
+
+console.log("Financial Analysis")
+console.log('----------------------------')
+// The total number of months included in the dataset.
+console.log('Total Months: ' + finances.length)  //answer 86
+
+// The net total amount of Profit/Losses over the entire period.
+
+// The average of the changes in Profit/Losses over the entire period.
+
+     // You will need to track what the total changes in profits is from month to month and then find the average.
+
+     // (Total/Number of months)
+
+// The greatest increase in profits (date and amount) over the entire period.
+
+// The greatest decrease in profits (date and amount) over the entire period.
+
+
