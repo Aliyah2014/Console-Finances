@@ -87,10 +87,6 @@ var finances = [
   ["Feb-2017", 671099],
 ];
 
-//get all the months in to array
-
-// find the sum for profits
-
 console.log("Financial Analysis");
 console.log("----------------------------");
 
@@ -116,13 +112,14 @@ for (var i = 1; i < finances.length; i++) {
   var previousMonthBalance = finances [i-1][1]
   //console.log ('Current Month Balance ' + currentMonthBalance)
   //console.log ('Previous Month Balance ' + previousMonthBalance)
-  balanceDifferences = previousMonthBalance - currentMonthBalance;
+  balanceDifferences = currentMonthBalance - previousMonthBalance;
   TotalDifference = TotalDifference + balanceDifferences
   var average = TotalDifference / finances.length
 
 
   //balanceDifferences = balanceDifferences / 86;
 }
+// console.log (TotalDifference)
 console.log ('Average Change: $' + average)
 // You will need to track what the total changes in profits is from month to month and then find the average.
 
